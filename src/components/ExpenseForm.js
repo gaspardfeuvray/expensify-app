@@ -75,7 +75,7 @@ export default class ExpenseForm extends React.Component {
 		this.setState(() => ({
 			description: '',
 			amount: '',
-			note: '',
+			note: 'none',
 			createdAt: moment(),
 			calendarFocused: false,
 			error: ''
